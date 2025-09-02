@@ -1,0 +1,738 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  /* box-sizing: border-box; */
+}
+body{
+/* background-color: #1A1919; */
+position: relative;
+margin: 0;
+padding: 0;
+}
+
+
+/*------header------*/
+
+
+.header{
+/* background-image: url(../images/Rectangle\ 105.png); */
+background-color: #333131;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
+height: 100px;
+width: 100%;
+}
+
+.container{
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+  padding-left: 120px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 0 0 0 10px;
+}
+
+.header_top{
+  display: flex;
+  align-items: stretch;
+}
+
+.triangle-topleft{
+  position: absolute;
+  left: 0px;
+  width: 100px;
+}
+
+.triangle-little{
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+.logo_img{
+  width: 210px;
+  height: 80px;
+  padding: 0 0 0 40px;
+}
+
+nav{
+  width:70%;
+  font-family: 'Inter',sans-serif;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: flex;
+  padding: 35px 18px 35px 18px;
+}
+
+img{
+  max-width: 100%;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+  color: var(--color-text);
+  font-size: 20px;
+}
+
+
+a {
+  text-decoration: none;
+}
+.triangle-right{
+  position: absolute;
+  width: 100px;
+  z-index: -1;
+  right: 0;
+  }
+
+.header_content{
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background-image: url(../images/Rectangle\ 2.png); */
+  background-color: #333131;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 620px;
+  width: 100%;
+}
+
+.header_title{
+  font-family:'Noto Sans',sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 90px;
+  color: var(--color-text);
+  padding: 190px 0 12px 80px;
+}
+
+.header_subtitle{
+  font-family:'Noto Sans',sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 64px;
+  color: var(--color-text);
+  padding: 0 0 21px 80px;
+}
+.header_text{
+  font-family: 'Inter',sans-serif;
+  font-size: 20px;
+  color: var(--color-text);
+  line-height: 26px;
+  padding: 0 0 0 80px;
+}   
+
+.header_button{
+  width: 225px;
+  height: 50px;
+  transform: skew(-30deg);
+  color: var(--color-button-text);
+  background-color: var(--color-button);
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  margin: 45px 0 0 125px;
+  text-align: center;
+}
+
+.header_button:hover{
+  color: var(--color-button-text);
+  background-color: var(--color-button-hover);
+}
+.header_image{
+  z-index: 1; 
+}
+.header_img_man{
+  float: right;
+  width: 680px;
+  height: 740px;
+}
+
+.triangle-big-righ{
+  position: absolute;
+  right: 0;
+  padding-top: 73px;
+}
+
+/* company-section */
+
+
+.company-section{
+  background-image: url('../images/company-section.png');
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 180px 130px 90px 100px;
+  z-index: 0;
+}
+
+
+.triangle-little-left-company-section{
+  position: absolute;
+  left: 0px;
+  width: 50px;
+  padding-top: 195px;
+}
+
+.triangle-big-left-company-section{
+  position: absolute;
+  left: 0;
+  padding-top: 230px;
+}
+
+.sports-card{
+  display: flex;
+  gap: 30px;
+}
+.sports-title{
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600; 
+}
+.sports-title::after,
+.sports-title::before{
+    display: block;
+    position: absolute;
+    bottom: 24px;
+    
+}
+.sports-title::before{
+    left: 0;
+}
+
+.sports-title::after{
+    right: 0;
+}
+
+.sports-text p{
+  font-family: 'Inter',sans-serif;
+  font-size: 15px;
+  padding-top: 12px;
+}
+
+
+.compamy-list{
+    display: flex;
+    gap: 90px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.company-item{
+    display: flex;
+    flex-basis: 40%;
+    gap: 20px;
+    padding-right: 50px;
+}
+.sports-card{
+  position: relative; 
+  width: 570px; 
+  height: 355px; 
+}
+
+.sports-image{
+  display: block; 
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay-white {
+  position: absolute; 
+  color: white;
+  padding: 55px;
+}
+
+.text-overlay-black{
+  position: absolute; 
+  color: black;
+  padding: 55px;
+}
+
+.sports-button-white{
+  position: absolute; 
+  padding: 25px;
+  background: none;
+  border: 0 solid #000; 
+  color: white ;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: SeoulHangang CBL;
+  padding-left: 65px;
+  padding-top: 285px;
+}
+.sports-button-black{
+  position: absolute;
+  background: none;
+  border: 0 solid #000; 
+  color: black ;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: SeoulHangang CBL;
+  padding-left: 65px;
+  padding-top: 285px;
+}
+
+/*sports_products*/
+
+.sports_products{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 1085px;
+}
+
+.sports_products_info{
+  position: relative;
+  z-index: 1;
+}
+.sports_products_title {
+  font-family:'Noto Sans',sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  font-style: italic;
+  padding-top: 160px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.sports_products_text {
+  font-size: 15px;
+  text-align: center;
+  line-height: 2;
+  padding: 20px 0 20px 0;
+  font-family: 'Inter',sans-serif;
+}
+
+.sports_products_list {
+  font-family: 'Inter',sans-serif;
+  font-size: 11px;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 60px 0 0;
+  justify-content: center;
+}
+
+.sports_products_item {
+  
+  box-sizing: border-box;
+  padding-right: 25px;
+}
+
+.products_card{
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  height: 450px;
+  overflow: hidden;
+  display: flex; 
+  flex-direction: column; 
+}
+
+.products_card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.products_text{
+  font-size: 16px;
+  color: black;
+  text-align: left; 
+  display: flex;
+  word-spacing: 220px;
+  padding-left: 10px;
+  position: relative; 
+}
+
+.products_text_Gloves {
+  font-size: 16px;
+  color: black;
+  text-align: left; 
+  display: flex;
+  word-spacing: 180px;
+  padding-left: 10px;
+  position: relative; 
+  top: 40px;
+}
+
+.products_text_Barbell{
+  font-size: 16px;
+  color: black;
+  text-align: left; 
+  display: flex;
+  word-spacing: 180px;
+  padding-left: 10px;
+  position: relative; 
+  top: 90px;
+}
+.gray-background{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 1875px;
+  transform: translateY(-1470px);;
+  z-index: 0;
+}
+/*Адаптивність для менших екранів
+@media (max-width: 768px) {
+  .sports_products_item {
+      width: calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .sports_products_item {
+      width: 100%; 
+  }
+} */
+
+/* sports stars */
+.sports_stars{
+  /* background-image: url(../images/sports_stars_fon.png); */
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+  height: 730px;
+  width: 100%;
+}
+
+.sports_stars_title{
+  font-family:'Noto Sans',sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 80px;
+  line-height: 74px;
+  color: black;
+  padding: 255px 0 0 120px;
+}
+
+.sports_stars_text{
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  color: black;
+  line-height: 28px;
+  padding: 15px 0 0 120px;
+}
+.sports_stars_text p{
+  padding-top: 10px;
+}
+
+.sports_stars_image{
+  padding-top: 77px;
+}
+.sports_stars_woman{
+  float: right;
+  width: 1020px;
+  height: 750px;
+}
+
+.sports_stars_button{
+  width: 190px;
+  height: 55px;
+  transform: skew(-30deg);
+  color: black;
+  border: #D9D9D9;
+  background-color: #D9D9D9;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  margin: 45px 0 0 125px;
+  text-align: center;
+}
+.sports_stars_button:hover {
+  color: var(--color-button-text);
+  background-color: var(--color-button-hover);
+}
+
+/*sports_stimulus*/
+
+.sports_stimulus{
+  /* display: flex;
+	flex-direction: row;
+	justify-content: space-around; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+}
+.sports_stimulus_info{
+  display: flex;
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+.sports_stimulus_image{
+  padding: 160px 50px 0 125px;
+}
+.sports_stimulus_woman{
+  float: left;
+  width: 600px;
+  height: 610px; 
+  padding-top: 115px;
+}
+
+.sports_stimulus_title{
+  font-family:'Noto Sans',sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 68px;
+  line-height: 74px;
+  color: white;
+  padding: 250px 0 0 0;
+}
+.sports_stimulus_text{
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  color: black;
+  line-height: 28px;
+  padding: 12px 30px 0 2px;
+}
+.sports_stimulus_text p{
+  padding-top: 8px;
+}
+
+.sports_stimulus_button{
+  width: 190px;
+  height: 55px;
+  transform: skew(-30deg);
+  color: black;
+  border: #F1D81C;
+  background-color: #F1D81C;
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  margin: 45px 0 0 125px;
+  text-align: center; 
+}
+.sports_stimulus_button:hover {
+  color: var(--color-button-text);
+  background-color: var(--color-button-hover);
+}
+.fon_sports_stimulus{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 925px;
+  transform: translateY(-700px);
+}
+
+/*section_subscription*/
+.section_subscription{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  /* height: 580px; */
+}
+.subscription_container {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  top: -600px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+
+}
+
+.subscription_text{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  /* padding: 280px 0 230px 125px; */
+}
+.subscription_text h1 {
+  font-family:'Noto Sans',sans-serif;
+  color: white; 
+  font-size: 34px; 
+}
+
+.discount {
+  font-family:'Noto Sans',sans-serif;
+  color: var(--color-button-text);
+  font-size: 64px;
+}
+
+.input-group {
+  display: flex;
+  
+}
+
+input[type="tel"] {
+  width: 360px;
+  height: 55px;
+  border: 1px solid white;
+  background-color: #585454;
+  color: #585454;
+  transform: skew(-30deg);
+}
+
+.subscription_button{
+  width: 200px;
+  height: 55px;
+  transform: skew(-30deg);
+  color: var(--color-button-text);
+  background-color: var(--color-button);
+  font-family: 'Inter',sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.subscription_button:hover {
+  color: var(--color-button-text);
+  background-color: var(--color-button-hover);
+}
+.section_subscription_fon{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 580px;
+  transform: translateY(-900px);
+}
+
+/* Адаптивність (може знадобитися) */
+/* @media (max-width: 600px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  input[type="email"] {
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+
+  .subscription_button {
+    border-radius: 3px;
+  }
+} */
+
+
+.footer{
+  /* background-color: #1A1919; */
+  background-image: url(../images/footer.png);
+  color: white;
+  margin-top: calc(-950px);
+}
+.footer_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: stretch;
+}
+.footer_container_text_logo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px 0 200px 120px;
+}
+.footer_logo_img{
+  width: 350px;
+  height: 135px;
+}
+.footer_container_text_logo p{
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  padding: 46px 0 0 0;
+}
+
+.footer_title{
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  width: 100%;
+  padding: 100px;
+  
+}
+
+.footer_title ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_title li {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.footer_main{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.footer_main ul{
+  list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer_main li {
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  display: flex;
+  padding: 18px 0 18px 0;
+
+}
+
+.footer_main a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.address-copyright p {
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  text-align: center; 
+  padding-top: 200px;
+}

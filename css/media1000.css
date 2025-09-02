@@ -1,0 +1,434 @@
+/*------header------*/
+
+@media screen and (max-width:1000px) {
+    .header{
+      display: flex;
+    }
+  } 
+
+  @media screen and (max-width:1300px) {
+    .container{
+        padding: 0 0 0 20px;
+    }
+  } 
+
+  @media screen and (max-width:1100px) {
+    .container{
+        padding: 0;
+    }
+  } 
+
+
+  @media screen and (max-width: 1000px) {
+    .logo_img{
+        width: 150px;
+        height: 60px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    nav a{
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    nav a{
+        font-size: 16px;
+    }
+  }
+
+
+   @media screen and (max-width: 1000px) {
+    .header_title{
+        font-size: 62px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .header_subtitle{
+        font-size: 44px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .header_text{
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .header_button{
+        width: 155px;
+        height: 35px;
+        font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .header_img_man{
+      width: 470px;
+      height: 525px;
+    }
+  }
+
+  /* company-section */
+  
+   @media screen and (max-width: 1100px) {
+    .company-section{
+        padding: 180px 45px 90px 100px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .company-section{
+        padding: 0 45px 90px 100px;
+    }
+  }
+
+  @media screen and (max-width: 1560px) {
+    .sports-card{
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 1380px) {
+    .sports-card{
+        width: 450px;
+        height: 330px;
+    }
+  }
+
+  @media screen and (max-width: 1210px) {
+    .sports-card{
+        width: 405px;
+        height: 260px;
+    }
+  }
+
+  @media screen and (max-width: 1560px) {
+    .sports-title{
+        font-size: 35px;
+        font-weight: 600;
+    }
+  }
+
+  @media screen and (max-width: 1380px) {
+    .sports-title{
+        font-size: 30px;
+        font-weight: 600;
+    }
+  }
+
+  @media screen and (max-width: 1210px) {
+    .sports-title{
+        font-size: 27px;
+        font-weight: 600;
+    }
+  }
+
+  @media screen and (max-width: 1560px) {
+    .sports-text p{
+        font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 1380px) {
+    .sports-text p{
+        font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 1210px) {
+    .sports-text p{
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1560px) {
+    .compamy-list{
+        display: flex;
+        gap: 40px 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 1210px) {
+    .compamy-list{
+        gap: 32px 20px;
+    }
+  }
+  @media screen and (max-width: 1380px) {
+    .company-item{
+        padding-right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1380px) {
+    .sports-button-white{
+        font-size: 16px;
+        padding-top: 265px;
+    }
+  }
+
+  @media screen and (max-width: 1380px) {
+    .sports-button-black{
+        font-size: 16px;
+        padding-top: 265px;
+    }
+  }
+
+@media screen and (max-width: 1210px) {
+    .sports-button-white{
+        padding-top: 205px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .sports-button-black{
+        padding-top: 205px;
+    }
+}
+
+
+  /*sports_products*/
+
+
+@media screen and (max-width: 1700px) {
+    .sports_products_title{
+        font-size: 75px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .sports_products_title{
+        font-size: 72px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .sports_products_title{
+        font-size: 68px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sports_products_title{
+        font-size: 68px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .sports_products_title{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .sports_products_title{
+        font-size: 47px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sports_products_text{
+        font-size: 12px;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .sports_products_list{
+        gap: 20px;
+        padding: 60px 60px 0 0px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .sports_products_list{
+        gap: 20px;
+        padding: 60px 60px 0 0px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .sports_products_list{
+        gap: 20px;
+        padding: 60px 100px 0 0px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sports_products_list{
+        gap: 10px;
+        padding: 60px 100px 0 0px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .sports_products_list{
+        gap: 10px;
+        padding: 60px 100px 0 0px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .sports_products_list{
+        gap: 10px;
+        padding: 60px 100px 0 0px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .sports_products_item{
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .sports_products_item{
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .products_card{
+        width: 340px;
+        height: 410px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .products_card{
+        width: 320px;
+        height: 390px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .products_card{
+        width: 290px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .products_card{
+        width: 270px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .products_card{
+        width: 270px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .products_card{
+        width: 270px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .products_text{
+        font-size: 14px;
+        word-spacing: 150px;
+    }
+    .products_text_Gloves {
+        font-size: 14px;
+        word-spacing: 150px;
+    }  
+    .products_text_Barbell{
+        font-size: 14px;
+        word-spacing: 150px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .products_text{
+        font-size: 14px;
+        word-spacing: 150px;
+    }
+    .products_text_Gloves {
+        font-size: 14px;
+        word-spacing: 150px;
+    }  
+    .products_text_Barbell{
+        font-size: 14px;
+        word-spacing: 130px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .products_text{
+        font-size: 14px;
+        word-spacing: 130px;
+    }
+    .products_text_Gloves {
+        font-size: 14px;
+        word-spacing: 110px;
+    }  
+    .products_text_Barbell{
+        font-size: 14px;
+        word-spacing: 110px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .products_text{
+        font-size: 12px;
+        word-spacing: 100px;
+    }
+    .products_text_Gloves {
+        font-size: 12px;
+        word-spacing: 90px;
+        top: 30px;
+    }  
+    .products_text_Barbell{
+        font-size: 12px;
+        word-spacing: 90px;
+        top: 70px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .products_text{
+        font-size: 11px;
+        word-spacing: 120px;
+    }
+    .products_text_Gloves {
+        font-size: 11px;
+        word-spacing: 120px;
+        top: 30px;
+    }  
+    .products_text_Barbell{
+        font-size: 11px;
+        word-spacing: 115px;
+        top: 70px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .products_text{
+        font-size: 11px;
+        word-spacing: 120px;
+    }
+    .products_text_Gloves {
+        font-size: 11px;
+        word-spacing: 120px;
+        top: 30px;
+    }  
+    .products_text_Barbell{
+        font-size: 11px;
+        word-spacing: 115px;
+        top: 70px;
+    }
+}
+
+
+
